@@ -6,18 +6,18 @@ An ID switch occurs when an object assigned identity (ID_i) at one timestamp is 
 
 The metric is calculated as:
 
-[
-\text{ID-Switch Rate} =
-\frac{N_{\mathrm{switch}}}
-{N_{\mathrm{association}}}
-\times 100%,
-]
+$$
+\text{ID-Switch Rate}
+=
+\frac{N_{\mathrm{switch}}}{N_{\mathrm{association}}}
+\times 100\%
+$$
 
 where:
 
-* (N_{\mathrm{switch}}) denotes the number of incorrect identity transitions observed across time.
-* (N_{\mathrm{association}}) denotes the total number of valid cross-temporal object associations.
-* A lower value indicates better temporal identity consistency.
+- $N_{\mathrm{switch}}$ denotes the number of incorrect identity transitions observed across time.
+- $N_{\mathrm{association}}$ denotes the total number of valid cross-temporal object associations.
+- A lower value indicates better temporal identity consistency.
 
 For example, if 65 incorrect identity transitions occur among 1,000 valid cross-temporal associations, the resulting ID-Switch Rate is (6.5%).
 
