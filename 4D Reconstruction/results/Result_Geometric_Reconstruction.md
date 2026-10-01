@@ -94,8 +94,9 @@ below the predefined 5% project threshold**.
 
 ## 5. Geometric Reconstruction Error Distribution
 
-![Geometric Reconstruction
-Error](Geometric%20Reconstruction%20Error.png)
+<p align="center">
+  <img src="./Geometric%20Reconstruction%20Error.png" width="70%">
+</p>
 
 **Figure 1. Geometric Reconstruction Error distribution based on Chamfer
 Distance. Lower is better. The dashed line indicates the project target
